@@ -1,0 +1,631 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar  */
+
+
+nav{
+  height: 50px;
+  width: 100%;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.navbar-links ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.navbar-links ul li{
+  list-style: none;
+  color: black;
+
+}
+
+.navbar-links ul button{
+  padding: 7px 10px;
+  background: white;
+  border: none;
+  margin-left: 20px;
+}
+
+.navbar-links ul li a{
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+
+}
+
+.navbar-links ul li a:hover{
+  text-decoration: underline;
+
+}
+
+.navbar-links ul button:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+/* toggle button  */
+
+.hidden {
+  display: none;
+}
+
+.toggle-button{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* hero container  */
+
+.hero-container .hero-image{
+  background: url("./images/image-intro-mobile.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-container .hero{
+  background: hsl(256, 26%, 20%);
+  height: 650px;
+  width: 100%;
+
+}
+
+.hero-container .hero h2{
+
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  font-size: 50px;
+
+}
+.hero-container .hero p{
+
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+
+}
+
+.hero-container .hero-btn{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.hero-container .hero-btn button{
+  padding: 10px 40px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+
+.hero-container .hero-btn button:hover{
+  color: hsl(256, 26%, 20%);
+  background: white;
+  font-weight: bold;
+}
+
+svg{
+  position: absolute;
+  top: 450px;
+}
+
+
+.hero .hero-btn svg{
+  position: absolute;
+  top: 930px;
+  right: 0.2px;
+  width: 80px;
+}
+
+
+
+.container2 hr{
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: hsl(256, 26%, 20%) ;
+}
+
+.container2 h2{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.snappy, .snappy h3, .snappy p{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.snappy p{
+  margin-right: 20px;
+  margin-left: 30px;;
+  margin-bottom: 120px;
+}
+
+
+.snappy h3{
+  font-size: 25px;
+}
+
+.snappy h3:hover{
+  color: red;
+}
+
+
+.prices, .prices h3, .prices p{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.prices p{
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-bottom: 120px;
+
+}
+
+
+.prices h3{
+  font-size: 25px;
+}
+
+.prices h3:hover{
+  color: red;
+}
+
+.people-first, .people-first h3, .people-first p{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.people-first p{
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-bottom: 120px;
+}
+
+.people-first h3{
+  font-size: 25px;
+}
+
+.people-first h3:hover{
+
+  color: red;
+
+}
+
+
+/* container3  */
+
+.container3{
+  position: relative;
+}
+
+.container3 svg{
+  position: absolute;
+  top: 1px;
+  right: 5px;
+}
+
+.container3{
+  margin-top: 100px;
+  height: 300px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background:hsl(256, 26%, 20%);
+}
+
+.container3 h2{
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+  font-size: 35px;
+
+}
+
+.container3 button{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 25px;
+  padding: 8px 20px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.container3 button:hover{
+  background: white;
+  color:hsl(256, 26%, 20%);
+}
+
+/* container4 */
+
+.container4{
+  position: relative;
+  background: hsl(0, 0%, 98%);
+  height: 200px;
+  width: 100%;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.container4 h2{
+  color: black;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 40px;
+  z-index: +1;
+
+}
+
+.container4 .icons{
+  margin-top: 35px;
+  text-align: center;
+  color: black;
+}
+
+
+
+.container4 .icons i{
+  margin-right: 5px;
+  z-index: +1;
+}
+
+.container4 .icons i:hover{
+  color: red;
+}
+
+.container4 svg{
+  position: absolute;
+  color: black;
+  top: 10px;
+  right: 2px;
+}
+
+hr{
+  margin-left: 25px;
+  margin-right: 25px;
+  background: hsl(0, 0%, 98%);
+}
+
+/* footer  */
+
+footer{
+  background: hsl(0, 0%, 98%);
+}
+
+.our-company .footer-head h3, .help-me .footer-head h3, .contact .footer-head h3,
+.others .footer-head h3{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 9px;
+}
+
+.our-company h3, .help-me h3, .contact h3, .others h3{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+
+/* media query  */
+
+@media (min-width:320px)  {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (min-width:481px)  {
+   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  }
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+
+  .toggle-button{
+    display: flex;
+  }
+
+  .navbar-links{
+    display: none;
+    width: 100%;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+  .navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+    margin-right: 35px;
+  }
+
+  .navbar-links li{
+  text-align: center;
+  margin-bottom: 10px;
+  z-index: +1;
+  margin-top: 20px;
+
+}
+
+.navbar-links button{
+  z-index: +1;
+}
+
+.navbar-links li a{
+  padding: .5rem 1rem;
+  font-size: 22px;
+  text-align: center;
+
+}
+
+.navbar-links.active{
+  display: flex;
+}
+
+}
+
+@media (min-width:641px)  {
+
+
+
+  .hero-container .hero h2{
+    font-size: 65px;
+    padding-top: 150px;
+  }
+
+  .hero-container .hero p{
+
+    font-size: 23px;
+  }
+
+  .snappy h3{
+    font-size: 30px;
+  }
+
+  .prices h3{
+    font-size: 30px;
+  }
+
+  .people-first h3{
+    font-size: 30px;
+  }
+
+  .snappy p{
+    font-size: 20px;
+  }
+
+  .prices p{
+   font-size: 20px;
+  }
+
+  .people-first p{
+    font-size: 20px;
+  }
+
+  .container3 h2{
+    font-size: 50px;
+  }
+
+
+
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (min-width:961px)  {
+
+  svg{
+    display: none;
+  }
+
+  .hero-container .hero-image{
+    background: url("./images/image-intro-mobile.jpg");
+    height: 550px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 225px;
+    right: 40px;
+  }
+
+  .hero-container .hero h2{
+    margin-right: 440px;
+    margin-left: 50px;
+    text-align: left;
+  }
+
+  .hero-container .hero p{
+    text-align: left;
+    margin-right: 440px;
+    margin-left: 50px;
+  }
+
+  .hero-container .hero-btn{
+
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .container2 .contents{
+    display: flex;
+  }
+
+  .container2 .contents i {
+    margin-top: 60px;
+
+  }
+
+  .snappy h3{
+    font-size: 33px;
+
+  }
+
+  .prices h3{
+    font-size: 33px;
+
+  }
+
+  .people-first h3{
+    font-size: 33px;
+
+  }
+
+  .snappy p{
+    font-size: 23px;
+    text-align: left;
+  }
+
+  .prices p{
+   font-size: 23px;
+   text-align: left;
+  }
+
+  .people-first p{
+    font-size: 23px;
+    text-align: left;
+  }
+
+  .container3 h2{
+    font-size: 60px;
+  }
+
+
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width:1025px) {
+
+  .navbar-links ul li a{
+    font-size: 20px;
+
+  }
+
+  .navbar-links ul button{
+    font-size: 20px;
+  }
+  .hero-container .hero h2{
+    font-size: 80px;
+  }
+
+  .hero-container .hero p{
+    font-size: 30px;
+  }
+
+  .hero-container .hero-btn{
+
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .snappy h3{
+    font-size: 36px;
+  }
+
+  .prices h3{
+    font-size: 36px;
+  }
+
+  .people-first h3{
+    font-size: 36px;
+  }
+
+  .snappy p{
+    font-size: 26px;
+  }
+
+  .prices p{
+   font-size: 26px;
+  }
+
+  .people-first p{
+    font-size: 26px;
+  }
+
+  .container3 h2{
+    font-size: 66px;
+  }/* big landscape tablets, laptops, and desktops */
+}
+@media (min-width:1281px) {
+
+  /* hi-res laptops and desktops */
+
+}
+
+@media (min-width:1440px){
+
+
+  .hero-container .hero h2{
+    font-size: 85px;
+
+   }
+
+   .hero-container .hero p{
+
+     margin-right: 650px;
+
+   }
+
+
+
+
+
+
+   .hero-container .hero-image{
+    background: url("./images/image-intro-mobile.jpg");
+    height: 600px;
+    width: 430px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 185px;
+    right: 40px;
+  }
+}
